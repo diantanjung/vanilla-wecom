@@ -11,7 +11,7 @@
   terminal.open(document.getElementById("terminal"));
   // var protocol = (location.protocol === "https:") ? "wss://" : "ws://";
   // var url = protocol + location.host + ":9000/ws2"
-  var url = "ws://localhost:9000/ws2/dian"
+  var url = "ws://168.235.77.142:9000/ws2/dian"
   var ws = new WebSocket(url);
   var attachAddon = new AttachAddon.AttachAddon(ws);
   var fitAddon = new FitAddon.FitAddon();
